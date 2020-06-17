@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>La Combi</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="icon" href="recursos/icono_volante.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .barraArriba {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            /*border: 3px solid #73AD21;*/
+            } 
+
+            .carrusel {
+            position: absolute;
+            top: 120px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            /*border: 3px solid #73AD21;*/
+            }
+            #textoInfo {
+            width: 100%;
+            position: absolute;
+            top: 300px;
+            left: 0;
+            z-index: 3;
+            }
+            #espacio {
+            width: 5%;
+            background-color: white;
+            
+            }
+            #contenido {
+            width: 83%;
+            background-color: white;
+            }
+            #logo {
+            width: 12%;
+            background-color: white;
+            }
+            #contenedorBarra {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+            .horizontalSpace{
+                width: 30;
+                background-color: white;
+            }
+            .spanSpace{
+                width:3.3%;
+                background-color: white;
+            }
+            .justificado {
+            text-align: justify;
+            }
+            .aliacionDerecha {
+            text-align: right;
+            }
+            .footer1 {
+            background-color: #272727;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            }
+            .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            color: #9C9C9C;
+            }
+            .fa:hover {
+                color: white;
+            }
+            .button1 {
+            background-color: #272727; 
+            color: #9C9C9C; 
+            border: 2px solid #9C9C9C;
+            }
+            #separacionIz {
+            width: 60%;
+            background-color: white;
+            
+            }
+            #separacionDe {
+            width: 35%;
+            background-color: white;
+            
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="barraArriba">
+            <div id="contenedorBarra">
+                <div id="espacio"></div>
+                <div id="logo">
+                    <img src="recursos/LaCombi_logo.jpg" alt="La Combi" style="width:140px;height:140px;">
+                </div>
+    
+                <div id="contenido">
+                    <nav class="navbar navbar-inverse" style="height:350px;">
+                        <div class="container-fluid center">
+                            <ul class="nav navbar-nav ">
+                                <li><a href="LaCombi.html"style="font-size:18px;"class="glyphicon glyphicon-home"></a></li>
+                                <li><a href="promociones.html" style="font-size:18px;"> Promociones</a></li>
+                                <li><a href="https://www.occ.com.mx/empleos/en-hidalgo/en-la-ciudad-de-ixmiquilpan/?smax=10000&gclid=EAIaIQobChMIs-ehwr2J6gIVEvDACh3fOAHPEAAYASAAEgKAl_D_BwE" style="font-size:18px;">Empleo</a></li>
+                                <li><a href="sugerencias.html" style="font-size:18px;">Sugerencias</a></li>
+                                <button class="btn navbar-btn button1">suscribete</button>
+                            </ul>
+                        </div>
+    
+    
+                    </nav>
+                </div>
+            </div>
+
+            <div class="carrusel">
+                <div >
+                    <video class="center" controls autoplay>
+                        <source src="recursos/video.mp4" type="video/mp4" style="width: 100%;">
+                        <source src="recursos/video.mp4" type="video/ogg">
+                      </video>
+                </div>
+            </div>
+
+            
+
+
+        <div class="container ">
+            <h1>Promoción de este mes</h1><BR></BR>
+            <div id="contenedorBarra">
+                <div id="separacionIz">
+                        <img src="recursos/banner.jpg" alt="banner" style="width: 600px;" class="img-rounded">
+                        
+                </div>
+                <span id="espacio"></span>
+                    <br><br>
+                <div id="separacionDe">
+                   <h3> Obtén la promocion: </h3><br><br>
+                    <button class="btn btn-danger" style="width: 200px; height: 100px;">LO QUIERO!!</button>
+                </div>
+            </div>
+        </div>
+
+            <br><br><br>
+
+        <footer >
+            <div class=" footer1">
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/La-Combi-643424412707333">
+                    <i class="fa fa-facebook" > </i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-whatsapp mx-1" href="https://web.whatsapp.com/">
+                    <i class="fa fa-whatsapp"> </i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-ins mx-1" href="https://www.instagram.com/?hl=es-la">
+                    <i class="fa fa-instagram"> </i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-yt mx-1" href="https://www.youtube.com/?hl=es-419&gl=MX">
+                    <i  class="fa fa-youtube"> </i>
+                </a>
+                </li>
+
+            </ul>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a style="color: #67B42F;">LaCombi.com</a>
+            </div>        
+        </footer>
+    </body>
+</html>
